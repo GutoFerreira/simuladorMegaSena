@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: #fbf6ac;
+}
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  text-align: center;
+}
+.lotomania {
+  background-color: #fac486;
+  width: 50vw;
+  height: 100vh;
+  border-right: 1px solid #000;
+}
+.megasena {
+  background-color: #99e98b;
+  width: 50vw;
+  height: 100vh;
+}
+.img-loto {
+  background-color: #fd9b51;
+}
+.img-loto img {
+  width: 25em;
+}
+.img-mega {
+  background-color: #01904e;
+}
+.img-mega img {
+  width: 25em;
+}
+button {
+  align-items: flex-end;
+}
+button:focus,
+button:active {
+  outline: none;
+}
+
+#numbers-loto {
+  margin-top: 1.5em;
+}
+.button-loto {
+  border-radius: 50%;
+  border: 1px solid #d4601c;
+  background-color: #fbf6ac;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  height: 3em;
+  width: 3em;
+  box-shadow: 2px 1px 5px #000;
+  transition: all 1s ease;
+}
+.button-loto:hover {
+  background-color: #fff349;
+}
+.button-mega {
+  margin-top: 2em;
+  border-radius: 50%;
+  border: 1px solid #0c621e;
+  background-color: #fbf6ac;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  height: 3em;
+  width: 3em;
+  box-shadow: 2px 1px 5px #000;
+  transition: all 1s ease;
+}
+.button-mega:hover {
+  background-color: #fff349;
+}
+
+#numbers-loto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#btn-loto {
+  background-color: #d4601c;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: 12em;
+  height: 2.5em;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+#btn-loto:hover {
+  background-color: #802f01;
+}
+
+#btn-mega {
+  margin-top: 2em;
+  background-color: #1b8331;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: 12em;
+  height: 2.5em;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+#btn-mega:hover {
+  background-color: #023a0e;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .lotomania {
+    width: 100vw;
+  }
+  .container-loto {
+    height: 100vh;
+  }
+  .megasena {
+    width: 100vw;
+  }
+  .img-loto img {
+    width: 15em;
+  }
+  .img-mega img {
+    width: 15em;
+  }
+  .button-loto {
+    margin-left: 0.2em;
+  }
+  .button-mega {
+    margin-left: 0.2em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-loto img {
+    width: 15em;
+  }
+  .img-mega img {
+    width: 15em;
+  }
+}
